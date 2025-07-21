@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #333;
+    background-color: #FFFBDE; 
+    line-height: 1.6;
+}
+h1, h2, h3, h4 {
+  font-weight: 700;
+  color: #2D5DA1; 
+}
+
+p, li {
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: #444;
+}
+
+button, .btn {
+  font-weight: 600;
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+}
+
+
+hr{
+    border: dotted black 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 0 auto 50px auto;
+    
+}
+
+.my-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+}
+
+.opining{
+    background-color: #FFFBDE;
+    background: linear-gradient(to bottom, #FFFBDE, #fffad4);
+}
+
+
+
+.introduction{
+    background-color: #fffad4;
+    background: linear-gradient(to bottom, #fffad4, #91C8E4);
+}
+
+.skills{
+    background-color: #91C8E4;
+    background: linear-gradient(to bottom, #91C8E4, #749BC2);
+}
+
+.skills img {
+  max-width: 80%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.Contact{
+    background-color: #749BC2;
+    background: linear-gradient(to bottom, #749BC2, #4682A9);
+}
+
+.footer{
+    background-color: #4682A9;
+}
